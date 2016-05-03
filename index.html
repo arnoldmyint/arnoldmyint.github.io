@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jordan Scales</title>
+
+    <meta charset="utf8" />
+    <meta property="og:site_name" content="Jordan Scales" />
+    <meta name="keywords" content="Jordan Scales" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="Shortcut Icon" type="image/x-icon" href="http://s.gravatar.com/avatar/3517596df161030c3779c532f7844383?s=16.gif" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/style.css" media="all" />
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="avatar"></div>
+
+      <p>
+        <span id="greet">Hi, <span class="highlight">I'm Jordan and I keep things simple.</span></span>
+      </p>
+
+      <p>
+        I like to <a href="http://github.com/jdan">code</a>, <a href="http://jscal.es">blog</a>,
+        and <a href="http://twitter.com/jdan">tweet</a>. I'd love to <a href="mailto:scalesjordan@gmail.com">hear from you</a>.
+      </p>
+
+      <p>
+        In my spare time I've worked on <a href="http://jdan.github.io/cleaver">cleaver</a>,
+        <a href="http://jdan.github.io/dynamo.js">dynamo.js</a>,
+        and <a href="http://jdan.github.io/Melopy">
+        Melopy</a>, among others.
+      </p>
+    </div>
+
+    <!-- google analytics -->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-8880940-5']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+      var av = document.getElementById('avatar');
+      av.onclick = function () {
+        if (av.className == 'tapped') av.className = '';
+        else av.className = 'tapped';
+      };
+
+    </script>
+  </body>
+</html>

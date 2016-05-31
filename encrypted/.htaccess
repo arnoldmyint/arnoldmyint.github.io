@@ -1,0 +1,4 @@
+AuthName "Invited Only"
+AuthType Basic
+AuthUserFile /Users/Arnold/Desktop/password-portected_tutorial/.htpasswd
+require valid-user

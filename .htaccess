@@ -1,1 +1,2 @@
-ErrorDocument 404 /www.arnoldmyint.xyz
+DirectoryIndex index.html
+ErrorDocument 404 http://arnoldmyint.xyz

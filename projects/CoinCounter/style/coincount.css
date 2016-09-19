@@ -1,0 +1,25 @@
+a:hover {
+    color: red; 
+    text-decoration: none;
+}
+
+span.cent {
+    color: blue;
+    font-size: 30pt;
+}
+
+span.and {
+    font-size: 20pt;
+}
+
+span.dollar {
+    color: green;
+    font-size: 30pt;
+}
+.row_header{
+    text-align: center;
+    background-color: lightgray;
+}
+.error{
+    color: #FF0000;
+}

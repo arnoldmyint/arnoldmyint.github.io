@@ -1,0 +1,23 @@
+body{
+    font-family: Arial;
+    background-image: url("../image/bg.png");
+    background-size:100% 410%;
+    background-repeat:no-repeat;
+}
+h1 {
+    text-align: center;
+    color: firebrick;
+}
+#text{
+    text-align: center;
+}
+#main {
+    display: block;
+    height: 800px;
+    width: 500px;
+    margin: auto;
+}
+canvas{
+    margin-left: 95px;
+    margin-top: 50px;
+}

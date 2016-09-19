@@ -1,0 +1,56 @@
+body
+	{
+		background-color: #FFFCE5;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-size: 12pt;
+		font-family: Arial, San serif;
+	}
+
+h1
+	{
+		text-align: center;
+	}
+
+h2
+	{
+		text-align: center;
+	}
+
+.navi
+	{
+		text-align: center;
+	}
+
+
+.makeitmiddle
+	{
+		text-align: center;
+	}
+
+
+.smallimg
+	{
+		float: right;
+		clear: both;
+
+	}
+
+#squareblocks
+	{
+		margin: auto;
+		max-width: 800px;
+		border-bottom:100px;
+		text-align: center;
+	}
+
+#footer
+	{
+		text-align: center;
+		
+	}
+	
+hr
+	{
+		clear: both;
+	}

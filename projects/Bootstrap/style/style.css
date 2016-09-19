@@ -1,0 +1,46 @@
+h4
+{text-align: center;
+    font-weight: bold;
+}
+
+
+.first
+{
+    height:  80px;
+    border:  1px solid black;
+}
+
+.bimage
+{
+    text-align: right;
+    align-content: center;
+    height: 80px;
+    width: 80px;
+    float: right;
+    clear: both;
+    padding: 10px;
+}
+
+.bheader
+{
+    text-align: left;
+}
+
+.img
+{
+    text-align: center;
+}
+
+
+
+.forth
+{
+    height:  25px;
+    border:  1px solid black;
+}
+
+.footer
+{
+    text-align: right
+}
+
